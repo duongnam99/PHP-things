@@ -51,3 +51,4 @@ catch(Exception $e) {
 }
 ?>
 ```
+- Nếu có là lỗi thì throw new exception và catch sẽ bắt exception tương ứng cới object throw ra.
