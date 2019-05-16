@@ -1,0 +1,32 @@
+Đọc sách thôi. Nguyên tắc đọc là thế này
+OOP ---> OOP Design Theory ---> Design pattern ---> Anti pattern---> -Reactoring ---> OOAD ---> Architect Pattern ---> Architect Styles ---> Devops ---> Solution Architect
+
+Xin chửi thẳng mặt ông nào bảo IT làm tới 30 tuổi rồi chueyển nghề nhé. Từng này kiến thức mới là kiến thức nền tảng thôi. Mà thấy để học từng này là chết ngất rồi, 10 năm chắc còn không nổi. Mỗi chủ đề đọc 3-5 cuốn sách thôi, mỗi cuốn vừa đọc, vừa ghi nhớ, vừa practice chắc không dưới 3 tháng. CHưa kể 1 cuốn sách phải đọc ít nhất 2 lần nữa, 1 lần khi mới học, 1 lần thứ 2 là khi đã có kinh nghiệm, quay lại đọc để nghiền ngầm. Khi bạn ở trình thấp, đọc 1 cuốn sách, bạn chỉ hiểu được tầm 30-40% ý tưởng của nó là cùng.
+
+Ví dụ như hồi trước mình học code ở Learncpp.com thấy học cũng được rất nhiều. Đến khi đi làm được 5 năm, mình quay lại, đọc toàn bộ tuwnggf chương trên đó, đọc đến đâu, thấm đến đó, khi đó mới hiểu cách viết của nó theo 1 góc nhìn khác, biết được cách hiểu vấn đề từ những thứ cơ bản nhất. Một ví dụ cơ bản nhất
+
+int test(int a, int*b ) ---> biến a được lưu ở đâu, nó được tạo mới hay là dùng biến cữ. biến b lưu ở đâu, biến *b lưu ở đâu, return value lưu ở đâu, return value lưu theo kiểu thế nào, hàm test() lưu ở đâu, nguyên tắc hoạt động của hàm test() trong bộ nhớ thế nào. Biến a và biến b, thằng nào tạo trước, thằng nào tạo sau, nếu tạo biến a xong mà hết bộ nhớ thì biến b phải làm thế nào? Giả sử thay vì biến b, truyền vào callback, callback bị exception thì ai release a...
+
+Giả sử thay vì truyền vào biến int, mình truyền vào class thì hiện tượng gì xảy ra, nguyên tắc nó có giống truyền biến int không? Rồi việc release biến a, và class M thế nào. ...... làm sao tránh được leak hay mất pointer khi truyền vào truyền ra function,..
+
+
+
+Mỗi chủ đề mình list ra vài cuốn sách hay mà mình từng đọc. Tất cả những cuốn bên dưới, mình đã đọc mỗi cuooncs ít nhất 2-3 lần. Có những cuốn mình thuộc luôn Như cuooncs Agile-Software-Development-Principles-Patterns-and-Practices chẳng hanj. Nên cứ yên tâm về chất lượng.
+
+
+OOP C++ có thể đọc từ sách, thinking in C++ cũng tốt, learncpp .... Cứ tìm sách để đọc xem compiler nó compile code thế nào. (Effective Modern C++ 2014)
+
+
+OOP design theory thì nếu chưa có kinh nghiệm thì đọc khá mơ hồ Nên đọc 3-4 cuốn sách về lĩnh vực này
+- Headfirst design patterns
+- Headfirst OOAD
+- Agile-Software-Development-Principles-Patterns-and-Practices (Cuốn cuối rất hay)
+- Clean code 
+
+Design patterns: Cứ tìm hiểu trong hệ thống xem có phần nào mình hay gặp phải, và những phần đó nó hay dùng pattern kiểu nào, kết hợp giữa các pattern ra sao? Ví dụ như theiets kế API thì kiến trúc compound nào là tối ưu, kiểu vậy, rồi chọn 1 cuốn về lĩnh vực đó mà đọc. Cái này gọi là specific application pattern.
+- Headfirst design patterns
+- Gang of four
+- Martin Reddy-API Design for C++-Morgan Kaufmann (2011)
+- practical-c-design-programming-architecture <--- Cuốn này hướng dẫn xây dựng project từ đầu tới cuối, từ viết use cases, Senario, Chọn architect, chọn design patterns, Refactoring code
+
+Mỏi tay quá, làm biếng viết tiếp 

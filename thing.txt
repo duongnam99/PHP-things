@@ -1,0 +1,47 @@
+apache benchmark
+ ab -n 1000 -c 20 http://cunghocvui.dev.com/
+ab -n 1000 -c 20 http://localhost/rr/public/
+.rr /serve
+
+git checkout --force search_feature
+git checkout -b header_feature
+git branch -u origin/branchname
+
+php -S 0.0.0.0:9999
+
+ sudo systemctl start kibana.service
+
+ssh vuthaihoc@118.70.13.36 -p 9989
+cd /storage2/web/miny-beta
+http://118.70.13.36:9907/
+169644
+
+git merge --squash branch_name
+git merge --abort
+git reset --merge
+abort
+
+ssh vuthaihoc@118.70.13.36 -p 9989
+cd /storage2/web/miny-beta
+http://118.70.13.36:9907/
+
+scp -P 9989 vuthaihoc@118.70.13.36:/home/vuthaihoc/miny_19_12_2018.sql ./
+cat .env
+mysqldump -u root -p miny > ~/miny_19_12_2018.sql
+
+ php artisan db:seed --class=MenuItemSeeder
+
+* 1NF:
+- Các thuộc tính của bảng phải là nguyên tố
+- Giá trị của các thuộc tính trên các hàng phải là đơn trị, không chứa nhóm lặp
+- Không có một thuộc tính nào có giá trị có thể tính toán được từ một thuộc tính khác
+
+* 2NF:
+- Bước 1: Loại bỏ các thuộc tính không khóa phụ thuộc vào một bộ phận khóa chính và tách ra thành một bảng riêng, khóa chính của bảng là bộ phận của khóa mà chúng phụ thuộc vào.
+- Bước 2: Các thuộc tính còn lại lập thành một quan hệ, khóa chính của nó là khóa chính ban đầu.
+
+* 3NF:
+- Bước 1: Loại bỏ các thuộc tính phụ thuộc bắc cầu ra khỏi quan hệ và tách chúng thành quan hệ riêng có khóa chính là thuộc tính bắc cầu.
+- Bước 2: Các thuộc tính còn lại lập thành một quan hệ có khóa chính là khóa ban đầu.
+
+
