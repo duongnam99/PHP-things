@@ -1,0 +1,6 @@
+Khởi tạo package php:
+	- dùng composer: 
+		+ composer init để tạo file composer.json
+		+ composer dump-autoload: cài đặt autoload psr-4 cho project
+		=> khởi tạo class,...
+	- dùng sẵn, kéo project khung về: http://www.darwinbiler.com/creating-composer-package-library/ 
